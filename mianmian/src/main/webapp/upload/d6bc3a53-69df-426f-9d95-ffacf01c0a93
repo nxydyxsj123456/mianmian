@@ -1,0 +1,9 @@
+./redis-5.0.0/src/redis-server   ./redis-5.0.0/conf/redis-6379.conf
+
+
+./redis-5.0.0/src/redis-cli  -h 192.168.6.3
+
+mvn archetype:generate -DgroupId=com  -DartifactId=java-project -DarchetypeArtifactId=maven-archetype-quickstart -Dversion=0.0.1-snapshot -DinteractiveMode=false
+
+
+mvn archetype:generate -DgroupId=com  -DartifactId=java-project -DarchetypeArtifactId=maven-archetype-webapp -Dversion=0.0.1-snapshot -DinteractiveMode=false
